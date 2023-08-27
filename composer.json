@@ -1,0 +1,28 @@
+{
+  "name": "xiaohuasheng0x1/data-types",
+  "description": "PHP data types",
+  "version": "1.0",
+  "type": "library",
+  "homepage": "https://github.com/comely-io/data-types",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "xiaohuasheng0x1",
+      "email": "8888028@gmail.com",
+      "role": "Author"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "ext-bcmath": "*",
+    "ext-mbstring": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Comely\\DataTypes\\": [
+        "src"
+      ]
+    }
+  },
+  "minimum-stability": "dev"
+}
