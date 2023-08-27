@@ -3,3 +3,4 @@ composer.phar
 composer.lock
 vendor/
 workspace/
+.DS_Store
